@@ -1,0 +1,142 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "win64",
+            "includePath": [
+                "${workspaceFolder}",
+                "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.13.26128/include/*",
+                "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.13.26128/atlmfc/include/*",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/ucrt",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/shared",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/winrt",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/win64/${config:VERSION}",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/client/src",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/cortex/src",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/multiport/src",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/addon-wrapper",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/amg",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/archive",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/bc",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/dbns",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/dpm",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/dx",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/etc",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/ht",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/io",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/main",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/material",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/mesh",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/models",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/mphase",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/numerics",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/parallel",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/pbns",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/sedm",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/species",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/sphysics",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/storage",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/turbulence",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/udf",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/ue",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/util",
+                "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/tgrid/src"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.13.26128/include/*",
+                    "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.13.26128/atlmfc/include/*",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/ucrt",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/shared",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/winrt",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/win64/3ddp",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/client/src",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/cortex/src",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/multiport/src",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/addon-wrapper",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/amg",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/archive",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/bc",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/dbns",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/dpm",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/dx",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/etc",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/ht",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/io",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/main",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/material",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/mesh",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/models",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/mphase",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/numerics",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/parallel",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/pbns",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/sedm",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/species",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/sphysics",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/storage",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/turbulence",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/udf",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/ue",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/src/util",
+                    "${config:FLUENT.FLUENT_INC_WIN}/fluent${config:FLUENT.RELEASE}/tgrid/src"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 3
+}

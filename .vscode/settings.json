@@ -1,0 +1,26 @@
+{
+    "workbench.colorCustomizations": 
+    {
+        "editorRuler.foreground": "#610B0B"
+    },
+    
+    "python.pythonPath": "W:/Miniconda/envs/notebook/python.exe",
+    
+    // Fluent path and version configuration.
+    "FLUENT" :
+    {
+        "RELEASE" : "19.0.0",
+        "VERSION": "3ddp",
+        "FLUENT_INC_WIN" : "D:/ANSYS Inc/v190/fluent"
+    },
+
+    "terminal.integrated.env.windows": 
+    {
+        "FLUENT_INC" : "${config:FLUENT.FLUENT_INC_WIN}"
+    },
+    
+    "terminal.integrated.env.linux": 
+    {
+        "FLUENT_INC" : "${config:FLUENT.FLUENT_INC_LIN}"
+    }
+}

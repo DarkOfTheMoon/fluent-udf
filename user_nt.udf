@@ -1,0 +1,66 @@
+###########################################################
+##
+## Copyright 1987-2017 ANSYS, Inc. 
+## All Rights Reserved  
+##
+###########################################################
+# 
+# purpose:
+#    This file is an include file for the makefile for NT UDF builds.
+#
+# usage:
+#    Put this file in the same dir as the makefile.
+#    Edit the text in " " at the end of the file.
+#    
+# notes:
+#    For more than one source file use $(SRC) in front of each name,
+#      no commas necessary. ex: $(SRC)file1.c $(SRC)file2.c
+#    See the header for the makefile for more info.
+#    Not all the options for the versions are listed here, there are
+#      also the double precision versions. ex: 3ddp
+#    If this file is not for a parallel node, set PARALLEL_NODE to 'none'.
+#      You can also remove the line, or set it to "". It's an nmake syntax
+#      error if you just mention the name with no '='.
+#    The USER_OBJECTS value is set as "". Only enter names of precompiled
+#      object files here if you adding other external libraries or objects
+#      compiled from other source code, possibly in FORTRAN for example.
+#
+# examples:
+#    For a udf file called udf_test.c, on 2d Fluent:
+#      SOURCES = $(SRC)udf_test.c
+#      VERSION = 2d
+#      PARALLEL_NODE = none
+#
+#    For a two udf files called test1.c and test2.c, on 3d Fluent:
+#      SOURCES = $(SRC)test1.c $(SRC)test2.c
+#      VERSION = 3d
+#      PARALLEL_NODE = none
+#
+#    For a udf called test.c in a 2d three parallel vmpi Fluent.
+#      there will be two user_udf.h files
+#
+#      SOURCES = $(SRC)test.c 
+#      VERSION = 2d_host
+#      PARALLEL_NODE = none
+#
+#      SOURCES = $(SRC)test.c 
+#      VERSION = 2d_node
+#      PARALLEL_NODE = vmpi
+###########################################################
+
+
+
+# Replace text in " " (and remove quotes)
+#  | indicates a choice
+#  note: $(SRC) is defined in the makefile
+
+CSOURCES = $(SRC)"file name.c"
+HSOURCES = $(SRC)"file name.h"
+VERSION = "2d | 3d | 2d_host | 2d_node | 3d_host | 3d_node"
+PARALLEL_NODE = "none | smpi | vmpi | net | nmpi"
+
+# Do not change the following line unless externally precompiled objects
+#  are to be included at the linking stage.
+#  For example: USER_OBJECTS = my_fortran_funcs.obj
+
+USER_OBJECTS =
